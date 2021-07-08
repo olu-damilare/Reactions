@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.mother{
+  margin: auto;
+  width: 20%;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  box-shadow: 2px 2px 2px 2px #888888;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-family: 'Abhaya_Libre';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label{
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input::placeholder{
+  font-size: 8px;
+}
+
+input{
+  margin-bottom: 15px;
+  width: 180px;
+}
+
+body{
+  padding-top: 40px;
+}
+
+a{
+  text-align: right;
+  font-size: 10px;
+  margin-left: 85px;
+}
+
+.login{
+  background-color:  black;
   color: white;
+  font-family: 'Montserrat';
+  width: 190px;
+  font-size: 10px;
+  height: 30px;
+  margin-top: 20px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 3px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.or{
+  margin-left: 100px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.google, .facebook{
+  font-size: 10px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  border-radius: 3px;
+  border-style: none;
+  padding: 7px;
 }
+
+img{
+  margin-right: 5px;
+}
+.google, .check{
+  margin-left: 35px;
+  
+}
+
+.check{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 11px;
+  margin-top: 30px;
+
+}
+
+.create{
+  width: 190px;
+  background-color: #E5E5E5;
+  color: black;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 9px;
+  border-style: none;
+  height: 30px;
+  border-radius: 3px;
+
+}
+
+
+
+
+
+
+
+
